@@ -85,9 +85,10 @@ const luzAmbiente = new THREE.AmbientLight(0xffffff);
 cena.add(pontoDeLuz, luzAmbiente);
 
 // Cria auxiliares de desenvolvimento que mostram a posição da luz e da câmera
-const ajudanteDePontoDeLuz = new THREE.PointLightHelper(pontoDeLuz);
+// const ajudanteDePontoDeLuz = new THREE.PointLightHelper(pontoDeLuz);
 const ajudanteDeGrid = new THREE.GridHelper(200, 50);
-cena.add(ajudanteDePontoDeLuz, ajudanteDeGrid);
+// cena.add(ajudanteDePontoDeLuz, ajudanteDeGrid);
+cena.add(ajudanteDeGrid);
 
 // Função para criação de estrelas
 function adicionarEstrela() {
