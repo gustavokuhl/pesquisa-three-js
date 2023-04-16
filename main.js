@@ -1,7 +1,6 @@
 import "./style.css";
 import * as THREE from "three";
 import { PointLight } from "three";
-import { AnimationObjectGroup } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 /**
