@@ -2,6 +2,8 @@
 
 Este projeto consiste em criar uma cena 3D do espaço sideral com objetos, luzes e animações. Ele utiliza a biblioteca Three.js e apresenta um toroide (🍩) com estrelas (⭐) ao redor.
 
+Demo: pesquisa-three-js.vercel.app
+
 ## 📝 Conteúdo
 
 1. Inicialização:
