@@ -64,10 +64,10 @@ const material = new THREE.MeshStandardMaterial({ color: 0xff6347 });
 //     color: 0xffffff,
 //     wireframe: true,
 // });
-const formaToro = new THREE.Mesh(geometria, material);
+const formaToroide = new THREE.Mesh(geometria, material);
 
 // Adiciona o objeto à cena
-cena.add(formaToro);
+cena.add(formaToroide);
 
 /**
  * Luzes
@@ -132,9 +132,9 @@ function animar() {
      * essa altearação será executada a cada frame, ou seja,
      * para cada vez que essa função for executada no looping
      */
-    formaToro.rotation.x += 0.01;
-    formaToro.rotation.y += 0.005;
-    formaToro.rotation.z += 0.01;
+    formaToroide.rotation.x += 0.01;
+    formaToroide.rotation.y += 0.005;
+    formaToroide.rotation.z += 0.01;
 
     // Atualizamos a posição dos controles
     // controles.update();
@@ -150,9 +150,9 @@ animar();
 function moveCamera() {
     const t = document.body.getBoundingClientRect().top;
 
-    formaToro.rotation.x += 0.05;
-    formaToro.rotation.y += 0.075;
-    formaToro.rotation.z += 0.05;
+    formaToroide.rotation.x += 0.05;
+    formaToroide.rotation.y += 0.075;
+    formaToroide.rotation.z += 0.05;
 
     camera.position.z = t * -0.01;
     camera.position.x = t * -0.0002;
